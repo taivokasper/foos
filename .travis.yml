@@ -2,7 +2,10 @@ language: android
 jdk: oraclejdk8
 android:
   components:
+    - tools
+    - platform-tools
     - build-tools-24.0.2
+    - android-24
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
