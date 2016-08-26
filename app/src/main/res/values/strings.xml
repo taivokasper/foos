@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="foos">Foos foos foos foos</string>
+    <string name="app_name">Foos</string>
+</resources>
