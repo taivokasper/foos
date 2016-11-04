@@ -2,4 +2,8 @@
 <resources>
     <string name="foos">Foos foos foos foos</string>
     <string name="app_name">Foos</string>
+    <string name="btn_players">Players</string>
+    <string name="btn_new_game">New game</string>
+    <string name="hint_player_name">Name</string>
+    <string name="btn_add">Add</string>
 </resources>

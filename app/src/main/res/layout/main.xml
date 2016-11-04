@@ -5,9 +5,10 @@
     android:layout_height="match_parent"
     android:padding="@dimen/activity_padding">
 
-    <TextView
+    <Button
+        android:id="@+id/btnPlayers"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/foos" />
+        android:layout_height="wrap_content"
+        android:text="@string/btn_players" />
 
 </LinearLayout>
