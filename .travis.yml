@@ -3,10 +3,11 @@ jdk: oraclejdk8
 android:
   components:
     - tools
-    - tools
     - platform-tools
     - build-tools-25.0.0
     - android-25
+    - extra-android-m2repository
+    - extra-google-m2repository
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
